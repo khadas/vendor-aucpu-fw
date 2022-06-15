@@ -19,4 +19,6 @@ LOCAL_MODULE_CLASS := ETC
 LOCAL_MODULE_SUFFIX := .bin
 LOCAL_MODULE_PATH := $(FW_EXPORT_DIR)
 LOCAL_STRIP_MODULE := false
+LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0 SPDX-license-identifier-GPL-2.0 legacy_by_exception_only
+LOCAL_LICENSE_CONDITIONS := by_exception_only notice restricted
 include $(BUILD_PREBUILT)
